@@ -2,7 +2,7 @@ FROM golang:alpine
 COPY httpenv.go /go
 RUN go build httpenv.go
 
-# BTS - added comment to trigger action 2
+# BTS - added comment to trigger action 3
 
 FROM alpine
 RUN addgroup -g 1000 httpenv \
